@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tns:Cinema xmlns:tns="http://www.example.org/Cinéma" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.example.org/Cinéma Cinema.xsd ">
+  <tns:Film id='lb78' type='comédie'>
+    <tns:titre>Les Bronzes</tns:titre>
+    <tns:année>1978</tns:année>
+    <tns:réalisateur>Patrice Leconte</tns:réalisateur>
+    <role><nom>Popeye</nom><acteur>Thierry Lhermite</acteur></role>
+    <role><nom>Jean-Claude Dusse</nom><acteur>Michel Blanc</acteur></role>
+  </tns:Film>
+  <tns:Film id='gf94' type='comédie'>
+    <tns:titre>Grosse fatigue</tns:titre>
+    <tns:année>1994</tns:année>
+    <tns:réalisateur>Michel Blanc</tns:réalisateur>
+    <role><nom>Patric Olivier</nom><acteur>Michel Blanc</acteur></role>
+    <role><nom>Carole Bouquet</nom><acteur>Carole Bouquet</acteur></role>
+  </tns:Film>
+  <tns:Producteur>
+    <tns:nom>Daniel Toscan du Plantier</tns:nom>
+    <tns:Film>
+      <tns:titre>tns:titre</tns:titre>
+      <tns:année>tns:année</tns:année>
+      <tns:réalisateur>tns:réalisateur</tns:réalisateur>
+    </tns:Film>
+  </tns:Producteur>
+</tns:Cinema>
