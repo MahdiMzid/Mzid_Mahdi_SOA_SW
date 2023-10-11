@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.example.org/Cinéma" xmlns:tns="http://www.example.org/Cinéma" elementFormDefault="qualified">
+<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.example.org/Cinema" xmlns:tns="http://www.example.org/Cinema" elementFormDefault="qualified">
 
-
+    <element name="Cinema" type="tns:Cinema"></element>
     
     <complexType name="Film">
     	<sequence>
@@ -19,8 +19,6 @@
     		<element name="Film" type="tns:Film"></element>
     	</sequence>
     </complexType>
-
-    <element name="Cinema" type="tns:Cinema"></element>
     
     <complexType name="Cinema">
     	<sequence>
